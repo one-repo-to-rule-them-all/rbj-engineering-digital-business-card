@@ -10,7 +10,8 @@ Static, single-page digital business card for Rodolfo Baez Jr.
 |---|---|
 | `index.html` | The card: inline CSS, no JavaScript, no build step. Includes link-preview (Open Graph) tags. |
 | `rodolfo-baez-jr.vcf` | vCard 3.0 behind the **Save Contact** button. Keep it in sync with `index.html`. |
-| `profile.jpg` | 512px card image, also used as the link-preview image. |
+| `profile.jpg` | 512px card image. |
+| `og-image.jpg` | 1200×630 link-preview image (logo, name, title, URL). Update it if the title changes. |
 | `favicon.png`, `apple-touch-icon.png` | Browser tab and iOS home-screen icons. |
 | `RBJ_Business_profile_image.png` | 1024px source image. Not served by the page. Regenerate the files above from it. |
 | `CNAME` | Custom domain for GitHub Pages. |
