@@ -28,12 +28,15 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
-            padding: 24px 16px;
-            min-height: 100vh;
+            padding: 20px 16px;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             background: #f2f4f7;
+        }
+        /* Center vertically only on larger screens; on phones, 100vh is taller than the visible area */
+        @media (min-width: 600px) and (min-height: 700px) {
+            body { min-height: 100vh; min-height: 100dvh; align-items: center; }
         }
         .card {
             width: 100%;
